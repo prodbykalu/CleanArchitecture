@@ -4,7 +4,7 @@
 Il compito principale dell'indexing è quello di velocizzare il recupero di dati da una tabella. Senza gli indici, recuperare tali dati potrebbe richiedere una scansione completa della tabella, impiegando quindi un tempo maggiore rispetto a quello impiegato dall'indice. 
 Questo implica quindi un rallentamento del nostro database e quindi un peggioramento delle prestazioni notabile dal nostro utente.
 
-Un indice è una tabella che contiene una copia ordinata di una o più colonne di una tabella, insieme a un puntatore alla posizione dei dati originali. Quando tale tabella è creata, si può inserire all'interno di una struttura data, come un hashmap
+Un indice è una struttura dati che contiene una copia ordinata di una o più colonne di una tabella, insieme a un puntatore alla posizione dei dati originali. La maggior parte dei database relazionali (MySQL, PostgreSQL, ecc.) implementa gli indici tramite strutture **B-tree** o **B+ tree**, che mantengono i dati ordinati e consentono ricerche, range queries e ordinamenti efficienti. Esistono anche indici di tipo hash, ma sono meno comuni e non supportano le range queries.
 
 Gli indici si possono usare anche su più colonne, in questo caso si parla di indici composti. Questi indici sono utili quando si eseguono query che coinvolgono più colonne, in quanto possono migliorare le prestazioni di tali query.
 

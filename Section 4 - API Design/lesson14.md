@@ -28,7 +28,7 @@ Rispetta un determinato metodo di naming, in modo che se passo da una API all'al
 Un'operazione è idempotente se, indipendentemente da quante volte viene eseguita, il risultato è sempre lo stesso. Questo previene la possibilità che, se il nostro cliente manda una richiesta e questa viene persa all'interno dei canali di internet per qualsivoglia motivo, il cliente possa ritentare la richiesta senza preoccuparsi di eventuali effetti collaterali.
 
 ### Asynchronous
-Le api devono essere asincrone, in modo che il cliente non debba aspettare la risposta per poter continuare a fare altre cose. In questo modo, se la nostra API impiega molto tempo per rispondere, il cliente non si blocca e può continuare a fare altre cose.
+Le API possono essere progettate in modo sincrono o asincrono a seconda del caso d'uso. Le REST API HTTP sono sincrone per natura: il client invia una richiesta e attende la risposta. Tuttavia, il client può gestire le chiamate in modo asincrono (es. tramite `async/await` o callbacks) per non bloccare l'esecuzione. Esistono anche API nativamente asincrone (es. webhooks, message-based API) che notificano il client al termine dell'elaborazione, utili quando le operazioni richiedono molto tempo.
 
 ### Versioning
 Le API vanno versionate in modo che, nel momento in cui si vuole modificare l'API, si possa creare una nuova versione senza dover modificare la vecchia. 

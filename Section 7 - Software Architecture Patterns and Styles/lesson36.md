@@ -6,3 +6,6 @@ Due protagonisti:
 - **Event Consumer**: è colui che riceve e processa l'evento. Può essere un'applicazione, un servizio o un componente che si iscrive a determinati eventi e reagisce di conseguenza.
 
 Tra i due, c'è un **Event Broker** che funge da intermediario, facilitando la comunicazione tra i produttori e i consumatori di eventi. L'Event Broker riceve gli eventi dai produttori e li distribuisce ai consumatori interessati.
+
+CQRS
+Command Query Responsibility Segregation: è un pattern architetturale che separa le operazioni di lettura (query) dalle operazioni di scrittura (command). In questo modo, si possono ottimizzare le prestazioni e la scalabilità del sistema, poiché le operazioni di lettura e scrittura possono essere gestite in modo indipendente.

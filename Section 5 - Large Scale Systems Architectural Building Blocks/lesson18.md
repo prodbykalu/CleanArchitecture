@@ -25,7 +25,7 @@ La maggior parte dei load balancer possiede un livello di astrazione, denominato
 
 In entrambi questi casi, è il load balancer che chiama i server per conto del client.
 
-- Gloabal Server Load Balancer: è un misto tra DNS e Hardware/Software Load Balancer. Utilizza il DNS per distribuire le richieste tra i vari load balancer, che a loro volta distribuiscono le richieste ai server. In questo modo, è possibile distribuire le richieste tra più data center, garantendo una maggiore scalabilità e affidabilità.
+- Global Server Load Balancer: è un misto tra DNS e Hardware/Software Load Balancer. Utilizza il DNS per distribuire le richieste tra i vari load balancer, che a loro volta distribuiscono le richieste ai server. In questo modo, è possibile distribuire le richieste tra più data center, garantendo una maggiore scalabilità e affidabilità.
 
 ## ESEMPI
 NGINX

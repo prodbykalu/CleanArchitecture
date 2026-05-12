@@ -5,5 +5,5 @@ L'architettura software di un sistema è una descrizione ad alto livello della s
 
 Non viene mostrata la parte più interna, i dettagli di codice. 
 
-Creare un'architettuara giusta, ci permette di scalare più semplicemente quando il software deve crescere.
-Senza questa fase, il tempo per poter scalare da una cerchia di persone a una più grande diventate estremamente dispendioso.
+Creare un'architettura giusta, ci permette di scalare più semplicemente quando il software deve crescere.
+Senza questa fase, il tempo per poter scalare da una cerchia di persone a una più grande diventare estremamente dispendioso.

@@ -5,4 +5,4 @@ I pattern per la software architecture sono modelli di progettazione che aiutano
 ## Vantaggi
 - Salva tempo e sforzi nella progettazione del software
 - Evita creare un'architettura da zero e ricadere nella big ball of mud
-- Consentei nuovi sviluppatori di comprendere rapidamente l'architettura del software
+- Consente ai nuovi sviluppatori di comprendere rapidamente l'architettura del software

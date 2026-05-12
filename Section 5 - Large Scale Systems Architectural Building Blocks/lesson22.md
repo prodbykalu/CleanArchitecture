@@ -14,7 +14,7 @@ Nell'API Gateway definiamo tutte le API che il client può chiamare, e l'API Gat
 - **Monitora e alert**: l'API Gateway può monitorare le richieste e generare alert in caso di problemi
 
 ## Antipattern
-- **Non deve conternere logica di business**. Si occupa solo di fare da router tra il client e i microservizi. Se contiene logica di business, diventa un punto critico di fallimento con troppo codice, un monolite, che era il problema che si voleva risolvere all'inizio.
+- **Non deve contenere logica di business**. Si occupa solo di fare da router tra il client e i microservizi. Se contiene logica di business, diventa un punto critico di fallimento con troppo codice, un monolite, che era il problema che si voleva risolvere all'inizio.
 - **Non deve diventare un single point of failure**. Se l'API Gateway va down, tutto il sistema va down. Pertanto, è importante avere più istanze dell'API Gateway e un bilanciatore di carico per distribuire le richieste tra le istanze. Questo si risolvere usando un load balancer e più istanze dell'API Gateway.
 - **Non va bypassato per servizi esterni**
 

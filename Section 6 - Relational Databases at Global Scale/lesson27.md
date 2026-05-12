@@ -1,4 +1,4 @@
-# Non-relation databases
+# Non-relational databases
 Nascono dal bisogno di non mantenere in relazione i dati.
 
 ## Differenze tra relational e non-relational databases
@@ -6,7 +6,7 @@ Nascono dal bisogno di non mantenere in relazione i dati.
 Nei database relazionali, se voglio aggiungere una colonna solo per un record (es: Secondo Nome), devo aggiungere la colonna a tutta la tabella, anche se non è necessaria per tutti i record. Nei database non relazionali, invece, posso aggiungere un campo solo per quel record specifico, senza doverlo aggiungere a tutta la tabella.
 
 ### Supporto verso i linguaggi di programmazione
-Nei database relazionali, si utilizzano le tabelle. Questa struttura dei dati non è conforme ai linguaggi di progammazione, dove non esiste neanche un data structure che rappresenta una tabella.
+Nei database relazionali, si utilizzano le tabelle. Questa struttura dei dati non si mappa nativamente agli oggetti dei linguaggi di programmazione: sebbene esistano strutture come array di oggetti o DataFrame, è necessario un passaggio di conversione (spesso gestito da un ORM) per trasformare le righe in oggetti.
 Nei database non relazionali, invece, si utilizzano documenti, che sono conformi ai linguaggi di programmazione, in quanto rappresentano un oggetto con campi e valori. Questo elimina la necessità di un ORM.
 
 ### Velocità
